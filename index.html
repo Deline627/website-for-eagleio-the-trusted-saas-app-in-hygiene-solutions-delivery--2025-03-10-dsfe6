@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EagleiO - Smart Hygiene Solutions</title>
+    <meta name="description" content="EagleiO - Your trusted SaaS App in Hygiene Solutions delivery. Smart, simple, and sustainable service done right.">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="/" class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                        EagleiO
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                    <a href="https://www.eagle360.app" class="px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-600 hover:to-teal-500 transform hover:scale-105 transition-all duration-300">
+                        Get Started
+                    </a>
+                </div>
+
+                <button class="md:hidden text-gray-300 hover:text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-24 pb-32 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-gray-900"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(59,130,246,0.1),transparent_50%)]"></div>
+        
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                    Soar Above Service Hassles with EagleiO
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
+                    The trusted SaaS App revolutionizing Hygiene Solutions delivery
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+                    <a href="https://www.eagle360.app" class="w-full sm:w-auto px-8 py-4 text-lg font-semibold rounded-full bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-600 hover:to-teal-500 transform hover:scale-105 transition-all duration-300 text-center">
+                        Start Your Journey
+                    </a>
+                    <a href="#features" class="w-full sm:w-auto px-8 py-4 text-lg font-semibold rounded-full border border-gray-700 hover:border-blue-500 transform hover:scale-105 transition-all duration-300 text-center">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-gray-800/50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                Powerful Features for Seamless Service
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Feature 1 -->
+                <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-750 transform hover:scale-105 transition-all duration-300">
+                    <div class="w-16 h-16 bg-blue-500/20 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">On-demand Service</h3>
+                    <p class="text-gray-400">Get instant access to professional hygiene services whenever you need them.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-750 transform hover:scale-105 transition-all duration-300">
+                    <div class="w-16 h-16 bg-teal-500/20 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Smart Scheduling</h3>
+                    <p class="text-gray-400">AI-powered scheduling system that adapts to your business needs.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-750 transform hover:scale-105 transition-all duration-300">
+                    <div class="w-16 h-16 bg-purple-500/20 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Real-Time Tracking</h3>
+                    <p class="text-gray-400">Monitor service progress and delivery in real-time with detailed analytics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                Why Choose EagleiO?
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Benefit 1 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Smart</h3>
+                    <p class="text-gray-400">Intelligent solutions that adapt to your needs</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-teal-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Simple</h3>
+                    <p class="text-gray-400">Easy-to-use interface for seamless operations</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Sustainable</h3>
+                    <p class="text-gray-400">Eco-friendly practices for a better future</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Service Done Right</h3>
+                    <p class="text-gray-400">Quality service delivery, every single time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 bg-gray-800/50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                Frequently Asked Questions
+            </h2>
+
+            <div class="max-w-3xl mx-auto space-y-6" x-data="{selected:0}">
+                <!-- FAQ Item 1 -->
+                <div class="bg-gray-800 rounded-xl">
+                    <button class="flex justify-between items-center w-full px-6 py-4" @click="selected !== 0 ? selected = 0 : selected = null">
+                        <span class="text-lg font-semibold">How does EagleiO work?</span>
+                        <svg class="w-6 h-6 text-blue-500" :class="selected === 0 ? 'transform rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4" x-show="selected === 0" x-collapse>
+                        <p class="text-gray-400">EagleiO provides a seamless platform for scheduling and managing hygiene services through our intuitive app interface.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-gray-800 rounded-xl">
+                    <button class="flex justify-between items-center w-full px-6 py-4" @click="selected !== 1 ? selected = 1 : selected = null">
+                        <span class="text-lg font-semibold">What services do you offer?</span>
+                        <svg class="w-6 h-6 text-blue-500" :class="selected === 1 ? 'transform rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4" x-show="selected === 1" x-collapse>
+                        <p class="text-gray-400">We offer a comprehensive range of hygiene solutions including cleaning, sanitization, and maintenance services.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-gray-800 rounded-xl">
+                    <button class="flex justify-between items-center w-full px-6 py-4" @click="selected !== 2 ? selected = 2 : selected = null">
+                        <span class="text-lg font-semibold">How do I get started?</span>
+                        <svg class="w-6 h-6 text-blue-500" :class="selected === 2 ? 'transform rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4" x-show="selected === 2" x-collapse>
+                        <p class="text-gray-400">Simply sign up on our platform, select your service requirements, and our team will guide you through the process.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-teal-400/20"></div>
+        <div class="container mx-auto px-6 relative">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Service Experience?</h2>
+                <p class="text-xl text-gray-300 mb-12">Join thousands of satisfied customers who trust EagleiO for their hygiene solutions.</p>
+                <a href="https://www.eagle360.app" class="inline-block px-8 py-4 text-lg font-semibold rounded-full bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-600 hover:to-teal-500 transform hover:scale-105 transition-all duration-300">
+                    Get Started Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800/50 pt-24 pb-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div>
+                    <h3 class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent mb-6">
+                        EagleiO
+                    </h3>
+                    <p class="text-gray-400">Transforming hygiene services with smart technology solutions.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Legal</h4>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Contact</h4>
+                    <p class="text-gray-400 mb-4">Get in touch with us</p>
+                    <a href="mailto:deline@devaltan.com" class="text-blue-400 hover:text-blue-300 transition-colors duration-300">deline@devaltan.com</a>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8">
+                <p class="text-center text-gray-400">&copy; 2024 EagleiO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
